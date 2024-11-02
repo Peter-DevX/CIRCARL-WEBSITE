@@ -10,6 +10,13 @@
     
 }
 
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+
 .nav-bar{
     background: white;
     display: flex;
@@ -17,6 +24,7 @@
     gap: 3rem;
     position: fixed;
     width: 100vw;
+    z-index: 999;
 }
 
 .nav-container{
@@ -44,6 +52,11 @@
 
 .menu-container ul a{
     color: black;
+    transition: 0.4s all ease;
+}
+
+.menu-container ul a:hover{
+    color: #8069BF;
 }
 
 .active{
@@ -72,39 +85,155 @@
 }
 
 
+
+
+
+
 /* landing page */
-section{
+.landing-page-bg{
     /* border: 2px solid black; */
     height: 100vh;
     width: 100vw;
-    background:#FFFFFA;
+    background:white;
 }
 
-.landing-page{
+.page-container{
     align-items: center;
     display: flex;
     justify-content: space-between;
-    height: px;
+    position: relative;
     width: 80%;
     margin: 0 10%;
 }
 
-.landing-page .welcome-text{
+.page-container .text-container{
    display: flex;
    height: 441px;
    width: 584px;
    padding-bottom: 2rem;
 }
 
-.welcome-text p{
+.text-container p{
     font-size: 1rem;
     line-height: 1.6rem;
 }
 
-.landing-page .landing-page-img img{
+.page-container .landing-page-img img{
     margin-top: 14rem;
     width: 700px;
     height: 700px;
     border-radius: 50%;
     
+}
+
+
+/* projects section */
+.project-bg{
+    background: rgb(252, 251, 251);
+    height: 80vh;
+    margin: 5rem 0;
+    width: 100vw;
+}
+
+.project-bg .text-container{
+    margin-top: 5rem;
+    width: 800px;
+}
+
+.page-container a{
+    width: 240px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    background: #000000;
+    position: absolute;
+    padding: 1rem;
+    display: inline-block;
+    margin: 8rem 10rem 0 0;
+}
+
+
+/* TEAM SECTION */
+.team-bg{
+    height: 100vh;
+    background: white;
+}
+.team-bg .page-container {
+    width: 60%;
+    margin: 0 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-bg .page-container .team-members{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin: 4rem 6.4rem;
+}
+
+.team-members .team-m1 img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+
+/* CONTACT SECTION */
+
+.contact-bg{
+    height: 100vh;
+    background:rgb(252, 251, 251);
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-bg  header{
+    padding-top: 2.4rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.contact-bg .form-container{
+    /* border: 2px solid green; */
+    width: 700px;
+    height: 520px;
+    border-radius: 90px;
+    position: relative;
+    padding: 0.9rem 4rem;
+    margin: 3rem 0;
+
+}
+
+.form-container .input-section{
+    height: 80px;
+    border-radius: 80px;
+    background: rgba(203, 199, 199, 0.913);
+    margin: 2.5rem;
+}
+
+.form-container .input-section input{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 1rem 1.4rem;
+    font-size: 1.2rem;
+    border-radius: 80px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.form-container .input-section input:placeholder{
+    color: white;
+}
+
+.form-container .message{
+    border-radius: 45px;
+    height: 8rem;
+}
+
+.form-container .message input{
+    height: 50%;
 }
