@@ -155,8 +155,16 @@ html{
 
 /* TEAM SECTION */
 .team-bg{
-    height: 100vh;
+    margin-top: 0;
+    height: 80vh;
     background: white;
+}
+
+.team-bg h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 2rem;
 }
 .team-bg .page-container {
     width: 60%;
@@ -164,6 +172,7 @@ html{
     justify-content: center;
     align-items: center;
 }
+
 
 .team-bg .page-container .team-members{
     display: flex;
@@ -178,18 +187,35 @@ html{
     border-radius: 50%;
 }
 
+.team-members .team-m1 h4{
+    font-weight: 450;
+    text-align: center;
+    line-height: 1.6rem;
+}
+
+.team-members .team-m1 p{
+    text-align: center;
+    font-size: 0.8rem;
+    color: #8069BF;
+}
 
 /* CONTACT SECTION */
 
 .contact-bg{
+    margin-top: 3rem;
     height: 100vh;
     background:rgb(252, 251, 251);
     align-items: center;
     justify-content: center;
 }
 
-.contact-bg  header{
-    padding-top: 2.4rem;
+.contact-bg .page-container{
+    margin-top: 0;
+}
+
+
+.contact-bg h3{
+    margin: 2.4rem;
     text-align: center;
     font-size: 2rem;
     font-weight: 400;
@@ -236,4 +262,83 @@ html{
 
 .form-container .message input{
     height: 50%;
+}
+
+.contact-bg .form-container button{
+    border: none;
+    box-shadow: 0 0 4 rgba(23, 23, 23, 0.75);
+    padding: 0.6rem 2rem;
+    margin-left: 3rem;
+    border-radius: 10px;
+    background: #8069BF;
+    color: white;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.contact-bg .form-container button:hover{
+    background: #6269c4f0
+}
+
+
+/* For larger tablets (e.g., iPads in landscape) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .menu-container ul li {
+        margin-right: 40px; /* Reduce spacing between menu items */
+        font-size: 1.2rem; /* Slightly reduce font size */
+    }
+    .page-container .landing-page-img img {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+/* For smaller laptops (13-inch screens) */
+@media (min-width: 1025px) and (max-width: 1366px) {
+    .menu-container ul li {
+        margin-right: 50px; /* Adjust spacing */
+    }
+    .page-container {
+        width: 90%; /* Expand page container width */
+    }
+}
+
+/* For iPhones (portrait and landscape modes) */
+@media (max-width: 767px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-container ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-container ul li {
+        margin: 10px 0; /* Stack menu items vertically */
+        font-size: 1.2rem;
+    }
+    .page-container .landing-page-img img {
+        display: none;
+        /* width: 300px;
+        height: 300px; */
+    }
+    .page-container {
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+    }
+}
+
+/* For small screens (extra small devices) */
+@media (max-width: 576px) {
+    .menu-container ul li {
+        font-size: 1rem;
+    }
+    .page-container .text-container p {
+        font-size: 0.9rem;
+    }
+    .page-container .landing-page-img img {
+        width: 250px;
+        height: 250px;
+    }
 }

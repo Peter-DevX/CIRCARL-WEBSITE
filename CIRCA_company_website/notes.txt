@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/circa.AI Logo n small 5 1.png" alt="CirCarl">
+            </div>
+
+            <div class="menu-container">
+                <ul>
+                    <li ><a href="#home" class="active">HOME</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#team">TEAM</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                </ul>
+            </div>
+
+            <div class="socials">
+               <div class="instagram">
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="instagram">
+                    <path d="M5.41421,1.17157c1.17157,1.17157 1.17157,3.07107 0,4.24264c-1.17157,1.17157 -3.07107,1.17157 -4.24264,0c-1.17157,-1.17157 -1.17157,-3.07107 -8.88178e-16,-4.24264c1.17157,-1.17157 3.07107,-1.17157 4.24264,-8.88178e-16" transform="translate(4.707 4.707)"></path>
+                    <path d="M11.5,0h-7c-2.48145,0 -4.5,2.01855 -4.5,4.5v7c0,2.48145 2.01855,4.5 4.5,4.5h7c2.48145,0 4.5,-2.01855 4.5,-4.5v-7c0,-2.48145 -2.01855,-4.5 -4.5,-4.5Zm-3.5,12c-2.20557,0 -4,-1.79395 -4,-4c0,-2.20605 1.79443,-4 4,-4c2.20557,0 4,1.79395 4,4c0,2.20605 -1.79443,4 -4,4Zm4.5,-8c-0.276123,0 -0.5,-0.223877 -0.5,-0.5c0,-0.276184 0.223877,-0.5 0.5,-0.5c0.276123,0 0.5,0.223816 0.5,0.5c0,0.276123 -0.223877,0.5 -0.5,0.5Z"></path>
+                  </svg></a>
+               </div>
+
+               <div class="twitter">
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 16 16" id="twitter">
+                    <path d="M16 3.539a6.839 6.839 0 0 1-1.89.518 3.262 3.262 0 0 0 1.443-1.813 6.555 6.555 0 0 1-2.08.794 3.28 3.28 0 0 0-5.674 2.243c0 .26.022.51.076.748a9.284 9.284 0 0 1-6.761-3.431 3.285 3.285 0 0 0 1.008 4.384A3.24 3.24 0 0 1 .64 6.578v.036a3.295 3.295 0 0 0 2.628 3.223 3.274 3.274 0 0 1-.86.108 2.9 2.9 0 0 1-.621-.056 3.311 3.311 0 0 0 3.065 2.285 6.59 6.59 0 0 1-4.067 1.399c-.269 0-.527-.012-.785-.045A9.234 9.234 0 0 0 5.032 15c6.036 0 9.336-5 9.336-9.334 0-.145-.005-.285-.012-.424A6.544 6.544 0 0 0 16 3.539z"></path>
+                  </svg></a>
+               </div>
+
+               <div class="facebook">
+                <a href="#"><svg width="43" height="43" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.3337 10.0003C18.3337 5.40033 14.6003 1.66699 10.0003 1.66699C5.40033 1.66699 1.66699 5.40033 1.66699 10.0003C1.66699 14.0337 4.53366 17.392 8.33366 18.167V12.5003H6.66699V10.0003H8.33366V7.91699C8.33366 6.30866 9.64199 5.00033 11.2503 5.00033H13.3337V7.50033H11.667C11.2087 7.50033 10.8337 7.87533 10.8337 8.33366V10.0003H13.3337V12.5003H10.8337V18.292C15.042 17.8753 18.3337 14.3253 18.3337 10.0003Z" fill="black"/>
+                    </svg></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="landing-page-bg" id="home">
+    <div class="page-container">
+        <div class="text-container">
+            <p><br>Welcome to <span class="active">circa!</span> <br><br>
+                Who we Are <br><br> At circa.rl, we are committed to harnessing the power of artificial intelligence to address some of the world’s most significant challenges.
+                Our focus is on developing innovative AI hardware 
+                and software products that provide real-time solutions for problems affecting at least 10% of the global population.
+                Our goal is to drive both individual and societal advancement through cutting-edge technology.
+
+                Our Mission
+                
+                Our mission is to build AI products that share data in real-time to improve the lives of users. 
+                We envision a world where technology empowers every individual to live healthier, more prosperous, and fulfilling lives. We aspire to create solutions that not only address immediate needs but also pave the way for a brighter future for all humanity.</p>
+        </div>
+        <div class="landing-page-img">
+            <img src="images/AI-1.jpg" alt="">
+        </div>
+    </div>
+    </section>
+
+
+
+
+
+    <section class="project-bg" id="projects">
+        <div class="page-container">
+            <div class="text-container">
+                <p>PROJECT 1 <br><br>
+    
+                    Our groundbreaking AI assistant, poised to revolutionize your 
+                    daily life with seamless precision, offering an unprecedented level 
+                    of convenience and efficiency—get ready to experience the future of 
+                    intelligent living.</p>
+            </div>
+
+            <a href="#" class="btn">EXPLORE e-qual</a>
+        </div>
+    </section>
+
+
+    <section class="team-bg" id="team">
+        <div class="page-container">
+            <!-- <h3>MEET THE TEAM</h3> -->
+
+            <div class="team-members">
+                <div class="team-m1">
+                    <img src="images/Mr. Amaniampong.png">
+                    <div>
+                        <h4>AMANIAMPONG <br>AMANKWAH WISDOM</h4>
+                        <P>CHIEF EXECUTIVE OFFICE</P>
+                    </div>
+                </div>
+                <div class="team-m1">
+                    <img src="images/Patrick.png">
+                    <div>
+                        <h4>PATRICK<br>DOGBATSE</h4>
+                        <P>SOFTWARE ENGINEER</P>
+                    </div>
+                </div>
+                <div class="team-m1">
+                    <img src="images/Akpah.png">
+                    <div>
+                        <h4>AKPAH<br>SAMUEL</h4>
+                        <P>SOFTWARE ENGINEER</P>
+                    </div>
+                </div>
+                <div class="team-m1">
+                    <img src="images/Josiah.png">
+                    <div>
+                        <h4>JOSIAH <br>OKORNOE</h4>
+                        <P>SOFTWARE ENGINEER</P>
+                    </div>
+                </div>
+                <div class="team-m1">
+                    <img src="images/Michael.png">
+                    <div>
+                        <h4>MICHAEL <br>LARYEA TETTEH</h4>
+                        <P>SOFTWARE ENGINEER</P>
+                    </div>
+                </div>
+                <div class="team-m1">
+                    <img src="images/Agyei Boakye.png">
+                    <div>
+                        <h4>AGYEI <br>BOAKYE EMMANUEL</h4>
+                        <P>RESEARCH OFFICE</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- CONTACT -->
+    <section class="contact-bg" id="contact">
+        <header> <h3>Contact Us</h3></header>
+            <div class="page-container">
+                <form action="#" class="form-container">
+                     <div class="input-section">
+                            <i></i>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="input-section">
+                            <i></i>
+                            <input type="text" placeholder="Email Address">
+                        </div>
+                        <div class="input-section message">
+                            <input type="text" placeholder="Message">
+                        </div>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+    </section>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+css part
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    text-decoration: none;
+    
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+
+.nav-bar{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+}
+
+.nav-container{
+    align-items: center;
+    border-bottom: 1px solid rgb(222, 219, 219);
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.logo img{
+    height: 8rem;
+
+}
+.menu-container ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.menu-container ul li{
+    font-size: 1.5rem;
+    margin-right: 70px;
+    justify-content: center;
+}
+
+.menu-container ul a{
+    color: black;
+    transition: 0.4s all ease;
+}
+
+.menu-container ul a:hover{
+    color: #8069BF;
+}
+
+.active{
+    color: #8069BF;
+}
+
+.menu-container ul .active{
+    color: #8069BF;
+}
+
+.instagram{
+    width: 40px;
+    height: 40px;
+}
+
+.twitter{
+    width: 40px;
+    height: 40px;
+}
+
+.socials{
+    display: flex;
+    gap: 3rem;
+    margin-left: 20rem;
+    margin-right: 2rem;
+}
+
+
+
+
+
+
+/* landing page */
+.landing-page-bg{
+    /* border: 2px solid black; */
+    height: 100vh;
+    width: 100vw;
+    background:white;
+}
+
+.page-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.page-container .text-container{
+   display: flex;
+   height: 441px;
+   width: 584px;
+   padding-bottom: 2rem;
+}
+
+.text-container p{
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+.page-container .landing-page-img img{
+    margin-top: 14rem;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    
+}
+
+
+/* projects section */
+.project-bg{
+    background: rgb(252, 251, 251);
+    height: 80vh;
+    margin: 5rem 0;
+    width: 100vw;
+}
+
+.project-bg .text-container{
+    margin-top: 5rem;
+    width: 800px;
+}
+
+.page-container a{
+    width: 240px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    background: #000000;
+    position: absolute;
+    padding: 1rem;
+    display: inline-block;
+    margin: 8rem 10rem 0 0;
+}
+
+
+/* TEAM SECTION */
+.team-bg{
+    height: 100vh;
+    background: white;
+}
+.team-bg .page-container {
+    width: 60%;
+    margin: 0 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.team-bg .page-container .team-members{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin: 4rem 6.4rem;
+}
+
+.team-members .team-m1 img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.team-members .team-m1 h4{
+    font-weight: 450;
+    text-align: center;
+    line-height: 1.6rem;
+}
+
+.team-members .team-m1 p{
+    text-align: center;
+    font-size: 0.8rem;
+    color: #8069BF;
+}
+
+/* CONTACT SECTION */
+
+.contact-bg{
+    height: 100vh;
+    background:rgb(252, 251, 251);
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-bg  header{
+    padding-top: 2.4rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.contact-bg .form-container{
+    /* border: 2px solid green; */
+    width: 700px;
+    height: 520px;
+    border-radius: 90px;
+    position: relative;
+    padding: 0.9rem 4rem;
+    margin: 3rem 0;
+
+}
+
+.form-container .input-section{
+    height: 80px;
+    border-radius: 80px;
+    background: rgba(203, 199, 199, 0.913);
+    margin: 2.5rem;
+}
+
+.form-container .input-section input{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 1rem 1.4rem;
+    font-size: 1.2rem;
+    border-radius: 80px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.form-container .input-section input:placeholder{
+    color: white;
+}
+
+.form-container .message{
+    border-radius: 45px;
+    height: 8rem;
+}
+
+.form-container .message input{
+    height: 50%;
+}
+
+.contact-bg .form-container button{
+    border: none;
+    box-shadow: 0 0 4 rgba(23, 23, 23, 0.75);
+    padding: 0.6rem 2rem;
+    margin-left: 3rem;
+    border-radius: 10px;
+    background: #8069BF;
+    color: white;
+    cursor: pointer;
+}
