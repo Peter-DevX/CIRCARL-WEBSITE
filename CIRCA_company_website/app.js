@@ -27,3 +27,22 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const navLinks = document.querySelectorAll(".nav-link");
+    const sections = document.querySelectorAll("section");
+
+    // Function to change active class on scroll
+    function changeActiveLink() {
+        let index = sections.length;
+
+        while (--index && window.scrollY + 40 < sections[index].offsetTop) {}
+
+        navLinks.forEach((link) => link.classList.remove("active"));
+        navLinks[index].classList.add("active");
+    }
+
+    // Listen to scroll events
+    window.addEventListener("scroll", changeActiveLink);
+});
+
